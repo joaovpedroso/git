@@ -31,7 +31,6 @@
 	- Testar a Conexão com o Github
 		*ssh -T git@github.com
 	
-	
 	- Listar o status do repositório Local
 		*git status
 	
@@ -54,6 +53,9 @@
 	- Listar todos os COMMIT´s realizados
 		*git log
 
+
+
+
 ---------------- ****** COMANDOS BÁSICOS ****** -------------
 
 	GIT INIT -> Inicializar o Git no Diretório
@@ -61,6 +63,9 @@
 	GIT ADD -> Adicionar um arquivo na lista de Transferencias
 	GIT COMMIT -M -> Realizar um snapshot da transferencia com uma mensagem
 	GIT PUSH -> Enviar Alterações ao Repositório do GitHub
+
+
+
 
 ---------------- ****** BRANCHES ****** -------------
 	- Criar nova Branch
@@ -84,4 +89,28 @@
 	- VISUALIZAR AS ALTERAÇÕES EM MODO GRAFICO
 		*GIT LOG --GRAPH
 
- 
+
+
+
+---------------- ****** ISSUES ****** -------------
+	*RASTREIO DE BUGS
+	*SUGESTÃO DE FERRAMENTAS PARA OS PROJETOS
+
+	- CRIAÇÃO DE NOVA ISSUE
+		*ACESSAR A GUIA ISSUE NO REPOSITORIO -> NEW ISSUE -> PREENCHER OS CAMPOS -> SUBMIT
+	
+	- CONCLUSÃO DE UMA ISSUE
+		*ACESSAR A GUIA ISSUE NO REPOSITORIO -> PREENCHER O CAMPO COM O RASH DO COMMIT
+
+	- DESATIVANDO UMA ISSUE
+		*ACESSAR O REPOSITÓRIO -> SETTINGS -> FEATURES -> DESMARCAR O CAMPO ISSUE
+
+	*** COMMIT DIRETO EM UMA ISSUE ***
+		1º CRIAR UMA BRANCH               -> GIT CHECKOUT -B NOME_DA_BRANCH
+		2º CRIAR OS ARQUIVOS | DIRETÓRIOS
+		3º REALIZAR O ADD                 -> GIT ADD .
+		4º REALIZAR O COMMIT              -> GIT COMMIT -M "MENSAGEM #NUMERO_DA_ISSUE"
+		5º REALIZAR O PUSH NA NOVA BRANCH -> GIT PUSH ORIGIN NOME_DA_BRANCH	
+
+
+	
