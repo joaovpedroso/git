@@ -1,0 +1,11 @@
+****Instalação Git Ubuntu****
+
+**Instalação dos pacotes necessarios para a instalação do Git
+sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext\libz-dev libssl-dev
+
+**Instalação do Git
+sudo apt-get install git
+
+**Verificar a versao do Git Instalada
+git --version
+
